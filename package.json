@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
+    "@ev1ch/test-library": "^1.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
@@ -84,6 +85,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "analysis": "npm run build -- --stats && webpack-bundle-analyzer build/bundle-stats.json",
     "styleslint": "stylelint ***/**/*.{scss,sass} --ignore-path .gitignore",
     "styleslint:fix": "stylelint --fix ***/**/*.scss --ignore-path .gitignore",
     "scriptslint": "eslint . --ext ts,tsx --ignore-path .gitignore",
@@ -126,7 +128,8 @@
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-scss": "^3.21.0",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "webpack-bundle-analyzer": "^4.5.0"
   },
   "lint-staged": {
     "*.*": "npm run format",
