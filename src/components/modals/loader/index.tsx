@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spinner } from 'components';
+import { Spinner } from '@ev1ch/test-library';
 import styles from './loader.module.scss';
 
 const Loader = function Loader(): JSX.Element {

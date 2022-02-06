@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
-import { Avatar, Hashtag } from 'components';
+import { Avatar, Hashtag } from '@ev1ch/test-library';
 import { IAuthorMeta, IHashtag, IMusicMeta } from 'domain/tiktuk';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCompactDisc } from '@fortawesome/free-solid-svg-icons';
