@@ -1,6 +1,6 @@
 import React from 'react';
 import { IUserInformation, IUserStats } from 'domain/user';
-import { Avatar } from 'components';
+import { Avatar } from '@ev1ch/test-library';
 import { convertToMinifiedNumber } from 'helpers';
 import clsx from 'clsx';
 import styles from './information.module.scss';
