@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { useNavigate } from 'react-router';
-import { Logotype } from 'components';
+import { Logotype } from '@ev1ch/test-library';
 import { Routes } from 'common';
 import styles from './header.module.scss';
 
